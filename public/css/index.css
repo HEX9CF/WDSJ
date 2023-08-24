@@ -1,0 +1,20 @@
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+body {
+    background: #000000 url(http://wx1.sinaimg.cn/large/006kXzk7gy1fgeq6kwhjoj31hc0xc7a7.jpg) no-repeat center 0;
+    background-attachment: fixed;
+}
