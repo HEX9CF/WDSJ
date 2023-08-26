@@ -95,12 +95,14 @@
                 </ul>
                 <div id="myTabContent" class="tab-content">
                     <div role="tabpanel" class="tab-pane fade active in" id="baidu" aria-labelledby="home-tab"><br>
-                        <!--                        <div class="col-md-2"><img width="auto" height="34px" src="./img/baidu.png" alt="Baidu" align="left" border="0"></div>-->
+                        <div class="col-md-0"></div>
+                        <div class="col-md-2"><h4>百度搜索</h4><!--<img width="auto" height="34px" src="img/baidu.png" alt="baidu" align="left"
+                                           border="0">--></div>
                         <form action="https://www.baidu.com/s" method="get" target="_blank">
-                            <div class="col-md-10">
+                            <div class="col-md-8">
                                 <div class="panel"><input type="text" class="form-control" onfocus="checkHttps"
-                                                          name="wd" size="30" placeholder="百度搜索..." baiduSug="1">
-                                </div>
+                                                          name="wd"
+                                                          size="30" placeholder="百度搜索..." baiduSug="1"></div>
                             </div>
                             <input type="submit" class="btn btn-default input-group-addon" style="
 							width: 100px;
@@ -117,9 +119,11 @@
                     </div>
 
                     <div role="tabpanel" class="tab-pane fade" id="360" aria-labelledby="profile-tab"><br>
-                        <!--                        <div class="col-md-2"><img width="auto" height="34px" src="./img/360.png" alt="360" align="left" border="0"></div> -->
+                        <div class="col-md-0"></div>
+                        <div class="col-md-2"><h4>360搜索</h4><!--<img width="auto" height="34px" src="img/360.png" alt="360" align="left"
+                                           border="0">--></div>
                         <form action="https://www.so.com/s" method="get" target="_blank">
-                            <div class="col-md-10">
+                            <div class="col-md-8">
                                 <div class="panel"><input type="text" class="form-control" onfocus="checkHttps" name="q"
                                                           size="30" placeholder="360搜索..."></div>
                             </div>
@@ -133,17 +137,18 @@
 							outline: medium;
 							-webkit-appearance: none;
 							-webkit-border-radius: 0;"
-                                   value="搜一下">
+                                   value="360搜索">
                         </form>
                     </div>
 
                     <div role="tabpanel" class="tab-pane fade" id="sogou" aria-labelledby="profile-tab"><br>
-                        <!--                       <div class="col-md-2"><img width="auto" height="34px" src="./img/sogou.png" alt="sogou" align="left" border="0"></div>-->
+                        <div class="col-md-2"><h4>搜狗搜索</h4><!--<img width="auto" height="34px" src="img/sogou.png" alt="sogou" align="left"
+                                           border="0">--></div>
                         <form action="https://www.sogou.com/web" method="get" target="_blank">
-                            <div class="col-md-10">
+                            <div class="col-md-8">
                                 <div class="panel"><input type="text" class="form-control" onfocus="checkHttps"
-                                                          name="query" size="30" placeholder="搜狗搜索...">
-                                </div>
+                                                          name="query"
+                                                          size="30" placeholder="搜狗搜索..."></div>
                             </div>
                             <input type="submit" class="btn btn-default input-group-addon" style="
 							width: 100px;
