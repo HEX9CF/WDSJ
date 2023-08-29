@@ -15,6 +15,6 @@ a:active {
 }
 
 body {
-    background: #000000 url(/img/bg.jpg) no-repeat center 0;
+    background: #000000 url(../img/bg.jpg) no-repeat center 0;
     background-attachment: fixed;
 }
